@@ -1,0 +1,149 @@
+
+/* Global Styles */
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f0f2f5;
+}
+
+/* Header Styles */
+header {
+background-color: #4267B2;
+color: #fff;
+padding: 10px;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav ul {
+display: flex;
+list-style: none;
+}
+
+nav ul li {
+margin-right: 20px;
+}
+
+nav ul li a {
+color: #fff;
+text-decoration: none;
+}
+
+nav form {
+display: flex;
+align-items: center;
+}
+
+nav form input[type="text"] {
+padding: 8px;
+border-radius: 5px;
+border: none;
+margin-right: 5px;
+}
+
+nav form button[type="submit"] {
+padding: 8px 16px;
+background-color: #fff;
+border: none;
+border-radius: 5px;
+color: #4267B2;
+cursor: pointer;
+}
+
+/* Main Styles */
+main {
+padding: 20px;
+}
+
+section {
+background-color: #fff;
+padding: 20px;
+border-radius: 5px;
+}
+
+h1 {
+margin-bottom: 20px;
+}
+
+.friends-container {
+display: flex;
+flex-wrap: wrap;
+}
+
+.friend-card {
+display: flex;
+margin-right: 20px;
+margin-bottom: 20px;
+border-radius: 5px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+overflow: hidden;
+}
+
+.friend-card img {
+width: 100px;
+height: 100px;
+object-fit: cover;
+}
+
+.friend-card div {
+padding: 10px;
+}
+
+.friend-card h2 {
+margin-bottom: 5px;
+}
+
+.friend-card p {
+font-size: 14px;
+color: #777;
+margin-bottom: 10px;
+}
+
+.friend-card button {
+padding: 8px 16px;
+background-color: #4267B2;
+border: none;
+border-radius: 5px;
+color: #fff;
+cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+background-color: #fff;
+padding: 10px;
+text-align: center;
+font-size: 14px;
+color: #777;
+margin-top: 20px;
+}
+
+footer ul {
+list-style: none;
+display: flex;
+justify-content: center;
+margin-bottom: 10px;
+}
+
+footer ul li {
+margin-right: 20px;
+}
+
+footer ul li a {
+color: #777;
+text-decoration: none;
+}
+
+footer p {
+margin-top: 10px;
+}
